@@ -1,0 +1,9 @@
+Name: loop
+Description: Loop, Projectionist App
+Version: 0.1.0
+Requires: libavfilter >= 5.11.102, libswscale >= 3.1.101, libavformat >= 56.25.101, libavcodec >= 56.26.100, libswresample >= 1.1.100, libavutil >= 54.20.100
+Requires.private:
+Conflicts:
+Libs:
+Libs.private:
+Cflags:

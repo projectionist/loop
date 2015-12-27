@@ -3,10 +3,10 @@
 set -o errexit
 set -o nounset
 
-sudo apt-get install -y git pkg-config automake libwayland-client0 \
-  libwayland-dev libwayland-egl1 libwayland-egl1-mesa libegl1-mesa-dev \
-  libgles2-mesa-dev libxcursor-dev libcairo2-dev libxcb-composite0-dev \
-  libgbm-dev libxkbcommon-dev libjpeg62-turbo-dev libpam0g-dev weston
+sudo apt-get install -y git pkg-config automake libwayland-client0 libwayland-dev libwayland-egl1 \
+  libwayland-egl1-mesa libegl1-mesa-dev libgles2-mesa-dev libxcursor-dev \
+  libcairo2-dev libxcb-composite0-dev libgbm-dev libxkbcommon-dev \
+  libjpeg62-turbo-dev libpam0g-dev weston
 
 VAGRANT_USER_HOME=/home/vagrant
 

@@ -1,11 +1,17 @@
 # README
 
-An empty C++ Open GL ES 2.0 scratch project providing drawing context for projections.  
-Visit [http://projectionist.array.bz/projections](http://projectionist.array.bz/projections) for some example projections based on this project.
+Based on `http://github.com/projectionist/scratch`.  
+The master branch is a base for [projections](http://projectionist.array.bz/projections/) which use video textures.  
+Visit [http://projectionist.array.bz/projections](http://projectionist.array.bz/projections) for some example projections based on this project.  
+See `projection/*` branches of this repo for video-based projections.  
+See `http://github.com/projectionist/scratch` for an empty project.  
 
 ## Usage
 
-The scratch project is developed to be built on a Debian VM or a Rapsberry PI as detail on the [tools page](http://projectionist.array.bz/tools) page of the project website.
+The Projectionist stack designed for a Debian VM or a Rapsberry PI as detailed on the [tools page](http://projectionist.array.bz/tools) page of the project website.
+
+These projections require `ffmpeg ~2.8.4` to be installed.  
+I had the most success installing from source:  [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).
 
 * check out the project by cloning the git repository
 * `cd` in to the project folder
@@ -13,8 +19,9 @@ The scratch project is developed to be built on a Debian VM or a Rapsberry PI as
 * run `vagrant reload` (**required**: for Projectionist start Weston)
 * run `vagrant ssh`
 * run `make clean`. It is a good idea to run these when switching between different branches of the same repository.
+* install `ffmpeg`
 * run `make`
-* run `bin/main`. you should see a full screen, white trapezium on a black background.
+* run `bin/main <video-path>`. You should see a video playing.
 
 ## Folder Structure
 
