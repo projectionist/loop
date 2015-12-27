@@ -26,6 +26,19 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", inline: <<-SHELL
     /vagrant/platform/weston/install.sh
+
+    set -o errexit
+    set -o nounset
+
     sudo apt-get install -y yasm nasm
+
+    cd
+    git clone --depth 1 git://source.ffmpeg.org/ffmpeg.git ffmpeg
+    cd ffmpeg
+    ./configure
+    make
+    sudo make install
+    cd ../
+    rm -rf ffmpeg
   SHELL
 end
