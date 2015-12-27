@@ -36,15 +36,17 @@ int main(int argc, char **argv)
 
   av_register_all();
   auto pb_ptr = make_shared<loop::playback>(argv[1]);
+
   std::thread t_decode{video_loop, pb_ptr};
+
   t_decode.detach();
 
   scratch::scratch *s = new scratch::scratch(pb_ptr);
   shared_ptr<projection::drawing> drawing = shared_ptr<projection::drawing>(s);
   projection::play(drawing);
 
-
   pb_ptr->buffer_ptr->close();
+
   cout << "frame rate: " << drawing->frame_rate() << "f/s" << endl;
 
   return EXIT_SUCCESS;
