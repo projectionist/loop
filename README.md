@@ -18,11 +18,7 @@ The scratch project is developed to be built on a Debian VM or a Rapsberry PI as
 * run `make clean`. It is a good idea to run these when switching between different branches of the same repository.
 * install `ffmpeg`
 * run `make`
-<<<<<<< HEAD
 * run `bin/main <video-path>`. You should see a video playing.
-=======
-* run `bin/main`. you should see a white trapezium on a black background, full-screen.
->>>>>>> 69eaae2e26bf7bb8790e3f670e0e4c83b5e29371
 
 ## Folder Structure
 
