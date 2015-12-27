@@ -1,10 +1,7 @@
 # README
 
-Based on `http://github.com/projectionist/scratch`.  
-The master branch is a base for [projections](http://projectionist.array.bz/projections/) which use video textures.  
-Visit [http://projectionist.array.bz/projections](http://projectionist.array.bz/projections) for some example projections based on this project.  
-See `projection/*` branches of this repo for video-based projections.  
-See `http://github.com/projectionist/scratch` for an empty project.  
+Based on `http://github.com/projectionist/loop`.  
+For discussion about this projection see: [http://projectionist.array.bz/projections/distortion-1.html](http://projectionist.array.bz/projections/distortion-1.html)
 
 ## Usage
 
@@ -21,7 +18,7 @@ I had the most success installing from source:  [https://ffmpeg.org/download.htm
 * run `make clean`. It is a good idea to run these when switching between different branches of the same repository.
 * install `ffmpeg`
 * run `make`
-* run `bin/main <video-path>`. You should see a video playing.
+* run `bin/main <video-path>`
 
 ## Folder Structure
 

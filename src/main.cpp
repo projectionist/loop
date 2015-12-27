@@ -43,8 +43,8 @@ int main(int argc, char **argv)
   shared_ptr<projection::drawing> drawing = shared_ptr<projection::drawing>(s);
   projection::play(drawing);
 
-
   pb_ptr->buffer_ptr->close();
+
   cout << "frame rate: " << drawing->frame_rate() << "f/s" << endl;
 
   return EXIT_SUCCESS;

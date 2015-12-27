@@ -92,9 +92,9 @@ namespace scratch {
 
     GLfloat verticies[] = {
        -1.0f, 1.0f,
-       -0.5f, -1.0f,
+       -1.0f, -1.0f,
         1.0f, 1.0f,
-        0.5f, -1.0f
+        1.0f, -1.0f
     };
 
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
