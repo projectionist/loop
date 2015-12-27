@@ -1,9 +1,7 @@
 # README
 
-Based on `http://github.com/projectionist/scratch`.  
-The master branch is a base for [projections](http://projectionist.array.bz/projections/) which use video textures.  
-Visit [http://projectionist.array.bz/projections](http://projectionist.array.bz/projections) for some example projections based on this project.  
-See `projection/*` branches of this repo for video-based projections.  
+Based on `http://github.com/projectionist/loop`.  
+For discussion about this projection see: [http://projectionist.array.bz/projections/mono-2.html](http://projectionist.array.bz/projections/mono-2.html)
 See `http://github.com/projectionist/scratch` for an empty project.  
 
 ## Usage
