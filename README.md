@@ -1,7 +1,8 @@
 # README
 
-An empty C++14 Open GL ES 2.0 scratch project providing drawing context for projections.  
-Visit [http://projectionist.array.bz/projections](http://projectionist.array.bz/projections) for some example projections based on this project.
+An empty C++14 scratch project providing an OpenGL ES 2.0 drawing context for projections.  
+Visit [http://projectionist.array.bz/](http://projectionist.array.bz) for more about projections.  
+Visit [http://projectionist.array.bz/projections](http://projectionist.array.bz/projections) for some example projections based on this repository.
 
 ## Usage
 
